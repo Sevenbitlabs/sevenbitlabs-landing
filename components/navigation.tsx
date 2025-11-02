@@ -50,9 +50,12 @@ export default function Navigation() {
         </div>
 
         {/* CTA Button */}
-        <button className="hidden md:block px-6 py-2 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition">
+        <Link
+          href="#contact"
+          className="hidden md:block px-6 py-2 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 transition"
+        >
           Get in Touch
-        </button>
+        </Link>
 
         {/* Mobile Menu Button */}
         <button
@@ -102,9 +105,12 @@ export default function Navigation() {
           >
             Contact
           </Link>
-          <button className="w-full px-6 py-2 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400">
+          <Link
+            href="#contact"
+            className="block w-full px-6 py-2 bg-green-500 text-black font-semibold rounded-lg hover:bg-green-400 text-center"
+          >
             Get in Touch
-          </button>
+          </Link>
         </div>
       )}
     </nav>
