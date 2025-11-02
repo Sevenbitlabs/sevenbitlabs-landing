@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "SevenBitLabs - Software Development & Technology Solutions",
+  title: "SEVENBITLABS - Software Development & Technology Solutions",
   description:
     "Leading software development company specializing in innovative technology solutions",
   icons: {
