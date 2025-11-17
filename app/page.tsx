@@ -1,13 +1,13 @@
-import Navigation from "@/components/navigation"
-import Hero from "@/components/hero"
-import Services from "@/components/services"
-import About from "@/components/about"
-import Contact from "@/components/contact"
-import Footer from "@/components/footer"
+import Navigation from "@/components/navigation";
+import Hero from "@/components/hero";
+import Services from "@/components/services";
+import About from "@/components/about";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="bg-black text-white">
+    <main className="bg-black text-white overflow-x-hidden">
       <Navigation />
       <Hero />
       <Services />
@@ -15,5 +15,5 @@ export default function Home() {
       <Contact />
       <Footer />
     </main>
-  )
+  );
 }
